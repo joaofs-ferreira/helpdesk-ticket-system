@@ -1,67 +1,33 @@
 # Help Desk Ticket System
 
 ## Overview
+The **Help Desk Ticket System** is a Python application designed to centralize and manage technical or administrative support requests.  
+The system ensures that no support request is lost and allows efficient communication between users (students, directors) and the technical team.
 
-The Help Desk Ticket System is a platform developed in Python designed to centralize and organize support requests.
-The system ensures that no support request is lost and allows efficient communication between users who need help and the technical team responsible for resolving issues.
+This project was developed as part of an academic journey in Computer Science.
 
-This project was developed as part of my academic journey in Computer Science.
+---
 
 ## Key Features
 
-### Ticket Registration
+- **Ticket Registration:** Users can create new tickets for issues, questions, or assistance requests.
+- **Assignment & Prioritization:** Tickets are assigned to team members based on specialization and priority.
+- **Ticket Tracking:** Team members can follow ticket status, add notes, and update users.
+- **Communication:** Users and support staff can communicate through the ticket system.
+- **History:** Maintains a full history of interactions for each ticket.
+- **User Interface:** Friendly GUI for both users and staff.
+- **Security & Authentication:** Only authorized users can access and modify tickets.
+- **Customization:** Categories, fields, and workflows can be tailored to institutional needs.
 
-Users can create new tickets to report technical problems, ask questions, or request assistance.
-
-### Assignment and Prioritization
-
-Tickets can be assigned to support team members based on their specialization and priority level.
-
-### Ticket Tracking
-
-The support team can track the status of tickets, update information, and add notes during the resolution process.
-
-### Communication System
-
-Users and the support team can communicate directly through the ticket system, ensuring clear and organized interaction.
-
-### Ticket History
-
-The system maintains a complete history of all interactions and updates related to each ticket.
-
-## User Interface
-
-The platform provides a user-friendly interface where users can:
-
-* Create new tickets
-* View existing tickets
-* Update ticket information
-* Track ticket progress
-
-Support staff can manage and monitor the tickets assigned to them.
-
-## Security and Authentication
-
-The system includes authentication and authorization mechanisms to ensure that:
-
-* Only authorized users can access the system
-* Sensitive information is protected
-* Ticket modifications are controlled
-
-## Customization
-
-The system can be customized to meet specific institutional needs, including:
-
-* Ticket categories
-* Custom fields
-* Specific workflows for different types of requests
+---
 
 ## Technologies Used
 
-* Python
-* Visual Studio Code
+- Python 3.x  
+- `tkinter` (GUI)  
+- `mysql-connector-python` (database connectivity)  
 
-## Possible Use Case
+Install dependencies with:
 
-This system can be used by organizations such as universities, companies, or IT departments to manage technical or administrative support requests efficiently.
-
+```bash
+pip install -r requirements.txt

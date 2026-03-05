@@ -65,6 +65,3 @@ The system can be customized to meet specific institutional needs, including:
 
 This system can be used by organizations such as universities, companies, or IT departments to manage technical or administrative support requests efficiently.
 
-## Author
-
-Computer Science Graduate
